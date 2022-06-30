@@ -1,0 +1,83 @@
+body{
+    font-family: 'Arima', cursive;
+margin: 0 auto;
+}
+
+.menu{
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 46px;
+    margin-left: 50px;
+    font-weight: 900;
+    color: white;
+}
+
+.container{
+    width: 100%;
+}
+
+.container-fluid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.link:hover{
+    background-color: rgb(196, 131, 10);
+    padding: 5px;
+}
+
+.box{
+    background-image: url(background.jpg);
+    
+    height: 400px;
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.card{
+    background-color: orange;
+    display: inline-block;
+    width: 350px;
+    padding: 20px;
+    margin-top:90px ;
+    margin-left: 5px;
+}
+
+.title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.desc{
+font-weight: 400;
+font-style: italic;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.last{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 125px;
+    font-weight: 700;
+}
